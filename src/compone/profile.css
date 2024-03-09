@@ -11,6 +11,16 @@
     margin: 0;
     
 }
+/* p{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+} */
+.text-content{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
 header {
     padding: 20px 0 ;
     background-color: #5db05d ;
@@ -95,4 +105,80 @@ header {
 .tag-content ul li{
     list-style-type: none;
     padding: 8px 0;
+}
+
+.progress-container{
+    width: 80%;
+
+}
+.progress-title{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+.progress-wrap{
+    width: 100px;
+    height: 10px;
+    background-color: #847f7f;
+    margin-top:8px;
+    margin-bottom: 16px;
+}
+.progress{
+    width: 50%;
+    height: 10px;
+    background-color:rgb(209, 144, 58) ;
+}
+.tag-content .text-content{
+    
+    margin-top: 12px;
+}
+.tag-content .text-content  li{
+list-style-type: square;
+margin-bottom: 8px;
+}
+
+.tag{
+    font-size: 18px;
+    color: #525050;
+    padding: 10px 20px;
+    border-left: 18px solid #16aa;
+    margin-bottom: 20px;
+}
+.tabbar-title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tabbar-title .text-content{
+    font-weight: 600;
+    color: #5db05d;
+}
+.content ul{
+    padding: 0;
+}
+.content ul li{
+    list-style-type: none;
+}
+.text-date{
+    padding: 0 20px;
+    color: #16a085;
+    font-style: italic;
+}
+.description-content h3{
+    padding: 0 20px;
+    margin-bottom: 8px;
+}
+.description-content ul{
+    padding-left: 40px;
+}
+.description-content ul li{
+   text-align: justify;
+   list-style-type: square;
+}
+
+.description-content ul li ul li{
+    text-align: justify;
+    list-style-type: square;
+    margin-bottom: 16px;
 }
