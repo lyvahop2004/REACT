@@ -1,9 +1,11 @@
 import { useState } from "react";
-function Profile() {
-  const [ten,setTen]= useState('lý văn hợp');
- const sua=(event) => {
-    setTen(event.target.value)
-  }
+function Profile(props) {
+//   const [ten,setTen]= useState('lý văn hợp');
+//  const sua=(event) => {
+//     setTen(event.target.value)
+
+
+  
   return (
     <>
     
@@ -28,12 +30,13 @@ function Profile() {
               <h1 className="tag-fill">THÔNG TIN</h1>
               <div className="tag-content">
                 <ul>
-                  <li><i class="fa-solid fa-phone"></i>:{ten}</li>
-                  <li><input onChange={(event) => {sua(event)}}></input></li>
-                  <li><i class="fa-regular fa-envelope"></i>:lyhop2004@gmail.comm</li>
-                  <li><i class="fa-solid fa-house"></i>:331 trần phú,BMT</li>
-                  <li><i class="fa-solid fa-cake-candles"></i>:07/02/2004</li>
-                  <li><i class="fa-solid fa-person"></i>:Nam</li>
+                <li><i class="fa-solid fa-person"></i>{props.ten}</li>
+                  <li><i class="fa-solid fa-phone"></i>{props.sodt}</li>
+                  {/* <li><input onChange={(event) => {sua(event)}}></input></li> */}
+                  <li><i class="fa-regular fa-envelope"></i>{props.email}</li>
+                  <li><i class="fa-solid fa-house"></i>{props.diachi}</li>
+                  <li><i class="fa-solid fa-cake-candles"></i>{props.ngayThang}</li>
+                  <li><i class="fa-solid fa-person"></i>{props.gioitinh}</li>
                 </ul>
 
               </div>
@@ -142,6 +145,8 @@ function Profile() {
         </div>
         </div>
     </div>
+
+  
     {/* <div className="App">
             <header className="App-header">
                 <div className="aa">

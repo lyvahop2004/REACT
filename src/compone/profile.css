@@ -27,14 +27,14 @@ header {
     display: flex;
 }
 .img-container{
-    /* background-color: white; */
+    background-color: white;
     padding: 4px;
     padding-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 .title-container{
@@ -83,7 +83,7 @@ header {
     flex-grow: 1;
 }
 .tag-fill{
-    background-color: rgb(209, 144, 58);
+    background-color: #5db05d;
     padding: 8px 20px;
     color: white;
     font-size: 19px;
@@ -127,7 +127,7 @@ header {
 .progress{
     width: 50%;
     height: 10px;
-    background-color:rgb(209, 144, 58) ;
+    background-color:#5db05d ;
 }
 .tag-content .text-content{
     
